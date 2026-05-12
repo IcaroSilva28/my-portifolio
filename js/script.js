@@ -2,13 +2,13 @@
    script.js — Portifólio
    ============================================================ */
 
-/* ---------- Header scroll ---------- */
+/* ---------- Alinhar menu com seção da página ---------- */
 const header = document.getElementById('header');
 window.addEventListener('scroll', () => {
   header.classList.toggle('scrolled', window.scrollY > 30);
 });
 
-/* ---------- Mobile menu ---------- */
+/* ---------- Menu mobile ---------- */
 const menuToggle = document.querySelector('.menu-toggle');
 const navList    = document.querySelector('.nav-list');
 
@@ -25,7 +25,7 @@ document.querySelectorAll('.nav-link').forEach(link => {
   });
 });
 
-/* ---------- Active nav link on scroll ---------- */
+/* ---------- Navegação através de links ---------- */
 const sections = document.querySelectorAll('section[id]');
 const navLinks  = document.querySelectorAll('.nav-link');
 
@@ -41,7 +41,7 @@ const observer = new IntersectionObserver(entries => {
 
 sections.forEach(s => observer.observe(s));
 
-/* ---------- Scroll-reveal animations ---------- */
+/* ---------- Animações de revelação do scroll ---------- */
 const revealEls = document.querySelectorAll('[data-animate]');
 
 const revealObserver = new IntersectionObserver(entries => {
@@ -55,12 +55,12 @@ const revealObserver = new IntersectionObserver(entries => {
 
 revealEls.forEach(el => revealObserver.observe(el));
 
-/* Staggered delay for portfolio cards */
+/* Transição dos cards de projetos */
 document.querySelectorAll('.portfolio-card').forEach((card, i) => {
   card.style.transitionDelay = `${i * 0.1}s`;
 });
 
-/* ---------- Timeline items reveal ---------- */
+/* ---------- Paralax para revelação dos itens ---------- */
 const timelineItems = document.querySelectorAll('.timeline-item');
 const timelineObserver = new IntersectionObserver(entries => {
   entries.forEach((entry, idx) => {
@@ -78,7 +78,7 @@ timelineItems.forEach((item, i) => {
   timelineObserver.observe(item);
 });
 
-/* ---------- Contact form ---------- */
+/* ---------- Formulário de contato ---------- */
 const form     = document.getElementById('contato-form');
 const feedback = document.getElementById('form-feedback');
 
@@ -88,7 +88,7 @@ form.addEventListener('submit', e => {
   btn.textContent = 'Enviando…';
   btn.disabled = true;
 
-  /* Simulação de envio — substitua por fetch real se necessário */
+  /* Simulação de envio — substituir por fetch real após atualização do código */
   setTimeout(() => {
     feedback.textContent = 'Mensagem enviada com sucesso! Retornarei em breve.';
     form.reset();
@@ -98,5 +98,5 @@ form.addEventListener('submit', e => {
   }, 1200);
 });
 
-/* ---------- Footer year ---------- */
+/* ---------- Data do footer ---------- */
 document.getElementById('year').textContent = new Date().getFullYear();
