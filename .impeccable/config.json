@@ -1,0 +1,26 @@
+{
+  "detector": {
+    "ignoreRules": [],
+    "ignoreFiles": [],
+    "ignoreValues": [
+      {
+        "rule": "low-contrast",
+        "value": "*",
+        "files": [
+          ".impeccable/mocks/decision/assigned.html"
+        ],
+        "createdAt": "2026-10-28T22:22:36.354Z",
+        "reason": "model triage: decision sketch text sits on an SVG field #17402f (rendered ~9:1); static detector only sees the body ground"
+      },
+      {
+        "rule": "design-system-font",
+        "value": "alegreya sans",
+        "files": [
+          ".impeccable/mocks/decision/assigned.html"
+        ],
+        "createdAt": "2026-10-29T00:07:57.149Z",
+        "reason": "model triage: esboço descartado da rodada de decisão (direção 'planta de jardim', não escolhida); não é código do site e não segue o DESIGN.md de propósito"
+      }
+    ]
+  }
+}

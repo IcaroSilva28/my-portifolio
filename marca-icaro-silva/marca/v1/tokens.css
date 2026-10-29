@@ -1,0 +1,70 @@
+/* Ícaro Silva: tokens da marca, gerado a partir de tokens.json (versão 1.0).
+   Não edite valores aqui sem atualizar tokens.json e o README.
+
+   Fontes (coloque no <head>, antes deste arquivo):
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&family=Bricolage+Grotesque:opsz,wght@12..96,600..800&display=swap">
+
+   Tema: <html data-theme="dia"> ou <html data-theme="noite">.
+   Sem data-theme, segue a preferência do sistema. */
+
+:root,
+[data-theme="dia"] {
+  color-scheme: light;
+  --ceu: #eef2fa;
+  --superficie: #ffffff;
+  --tinta: #0f1a3d;
+  --tinta-suave: #46507a;
+  --meia-noite: #1a2b66;
+  --sobre-marca: #ffffff;
+  --sol: #e3a21a;
+  --sol-traco: #b07808;
+  --latao: #7e5d2b;
+  --carmesim: #b3122e;
+  --borda: #cbd3e6;
+}
+
+[data-theme="noite"] {
+  color-scheme: dark;
+  --ceu: #0a1230;
+  --superficie: #121d45;
+  --tinta: #edf1fb;
+  --tinta-suave: #a8b3d6;
+  --meia-noite: #9db2f5;
+  --sobre-marca: #0a1230;
+  --sol: #f4b942;
+  --sol-traco: #f4b942;
+  --latao: #c9a46a;
+  --carmesim: #ff5c6e;
+  --borda: #2b3a72;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="dia"]) {
+    color-scheme: dark;
+    --ceu: #0a1230;
+    --superficie: #121d45;
+    --tinta: #edf1fb;
+    --tinta-suave: #a8b3d6;
+    --meia-noite: #9db2f5;
+    --sobre-marca: #0a1230;
+    --sol: #f4b942;
+    --sol-traco: #f4b942;
+    --latao: #c9a46a;
+    --carmesim: #ff5c6e;
+    --borda: #2b3a72;
+  }
+}
+
+:root {
+  --espaco-2: 8px;
+  --espaco-4: 16px;
+  --espaco-8: 32px;
+  --espaco-16: 64px;
+  --raio-sm: 6px;
+  --raio-lg: 24px;
+  --raio-pilula: 999px;
+  --font-display: "Bricolage Grotesque", "Trebuchet MS", sans-serif;
+  --font-texto: "Atkinson Hyperlegible", Verdana, sans-serif;
+}
