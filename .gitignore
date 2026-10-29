@@ -1,1 +1,8 @@
 instructions.md
+
+# Impeccable: arquivos locais e de trabalho (capturas, esboços, cache)
+.impeccable/config.local.json
+.impeccable/hook.cache.json
+.impeccable/review/
+.impeccable/mocks/
+.impeccable/questions/

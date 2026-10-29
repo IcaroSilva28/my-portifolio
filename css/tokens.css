@@ -1,0 +1,90 @@
+/* Cópia de marca-icaro-silva/marca/tokens.css (marca v3). Atualize lá primeiro e copie para cá. */
+/* Ícaro Silva: tokens da marca, versão 3 (o marco geodésico, com o sol e a asa).
+   Os valores são os mesmos da v2; a v3 trocou só a logo (assets/v3/).
+   Gerado a partir de tokens.json. Não edite valores aqui sem atualizar tokens.json e o README.
+   A versão 1 está arquivada em v1/.
+
+   Fontes (coloque no <head>, antes deste arquivo):
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@100..125,600..800&family=Atkinson+Hyperlegible+Mono:wght@400;600&family=Atkinson+Hyperlegible+Next:ital,wght@0,400;0,700;1,400&display=swap">
+
+   Tema: <html data-theme="dia"> (o chão) ou <html data-theme="noite"> (o céu do Sul).
+   Sem data-theme, segue a preferência do sistema. */
+
+:root,
+[data-theme="dia"] {
+  color-scheme: light;
+  --chao: #ebedea;
+  --placa: #f7f8f6;
+  --tinta: #1b1f1d;
+  --tinta-suave: #4a524d;
+  --bronze: #b0602a;
+  --bronze-texto: #84431a;
+  --patina: #f4e4d1;
+  --rio: #1f5299;
+  --sobre-rio: #ffffff;
+  --terra-roxa: #7a2b1d;
+  --grade: #cdd2ce;
+  --curva: rgb(176 96 42 / 0.38);
+  --estrela: transparent;
+}
+
+[data-theme="noite"] {
+  color-scheme: dark;
+  --chao: #0c1322;
+  --placa: #141d31;
+  --tinta: #e9edf4;
+  --tinta-suave: #a9b3c6;
+  --bronze: #bd6b32;
+  --bronze-texto: #e3a06a;
+  --patina: #fbeee0;
+  --rio: #8fb6f2;
+  --sobre-rio: #0c1322;
+  --terra-roxa: #ef8a72;
+  --grade: #24304a;
+  --curva: transparent;
+  --estrela: #fbeee0;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="dia"]) {
+    color-scheme: dark;
+    --chao: #0c1322;
+    --placa: #141d31;
+    --tinta: #e9edf4;
+    --tinta-suave: #a9b3c6;
+    --bronze: #bd6b32;
+    --bronze-texto: #e3a06a;
+    --patina: #fbeee0;
+    --rio: #8fb6f2;
+    --sobre-rio: #0c1322;
+    --terra-roxa: #ef8a72;
+    --grade: #24304a;
+    --curva: transparent;
+    --estrela: #fbeee0;
+  }
+}
+
+:root {
+  --ceu-do-sul: #0f1a33;
+
+  --espaco-2: 8px;
+  --espaco-4: 16px;
+  --espaco-8: 32px;
+  --espaco-16: 64px;
+
+  --raio-sm: 6px;
+  --raio-lg: 16px;
+
+  --font-display: "Archivo", Verdana, sans-serif;
+  --display-largura: 125%;
+  --font-texto: "Atkinson Hyperlegible Next", Verdana, sans-serif;
+  --font-dados: "Atkinson Hyperlegible Mono", ui-monospace, monospace;
+
+  --tempo-pressao: 160ms;
+  --tempo-resposta: 200ms;
+  --tempo-tema: 400ms;
+  --curva-saida: cubic-bezier(0.16, 1, 0.3, 1);
+  --curva-movimento: cubic-bezier(0.77, 0, 0.175, 1);
+}

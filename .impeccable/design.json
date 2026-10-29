@@ -1,0 +1,730 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-28T21:30:00-03:00",
+  "title": "Design System: Ícaro Silva",
+  "extensions": {
+    "source": {
+      "brandBook": "marca-icaro-silva/marca/README.md",
+      "brandTokens": [
+        "marca-icaro-silva/marca/tokens.css",
+        "marca-icaro-silva/marca/tokens.json"
+      ],
+      "siteTokens": "css/tokens.css",
+      "themeSwitch": "data-theme=\"dia\"|\"noite\" no <html>; sem atributo, prefers-color-scheme; localStorage chave \"tema\""
+    },
+    "colorMeta": {
+      "chao-dia": {
+        "role": "neutral",
+        "displayName": "Concreto / Céu do Sul (Dia)",
+        "cssVar": "--chao",
+        "theme": "dia",
+        "purpose": "Fundo da página.",
+        "canonical": "#ebedea",
+        "oklch": "oklch(94.4% 0.005 134.9)",
+        "tonalRamp": [
+          "#0b0b0a",
+          "#242524",
+          "#414241",
+          "#60625f",
+          "#818380",
+          "#a4a5a3",
+          "#c8c9c8",
+          "#eeefed"
+        ]
+      },
+      "chao-noite": {
+        "role": "neutral",
+        "displayName": "Concreto / Céu do Sul (Noite)",
+        "cssVar": "--chao",
+        "theme": "noite",
+        "purpose": "Fundo da página.",
+        "canonical": "#0c1322",
+        "oklch": "oklch(18.8% 0.033 264.4)",
+        "tonalRamp": [
+          "#080b12",
+          "#20252f",
+          "#3b4250",
+          "#596173",
+          "#798395",
+          "#9da5b5",
+          "#c3c9d7",
+          "#e9eff9"
+        ]
+      },
+      "placa-dia": {
+        "role": "neutral",
+        "displayName": "Placa (Dia)",
+        "cssVar": "--placa",
+        "theme": "dia",
+        "purpose": "Superfícies sobre o chão: monografia, menu aberto.",
+        "canonical": "#f7f8f6",
+        "oklch": "oklch(97.8% 0.003 128.5)",
+        "tonalRamp": [
+          "#0b0b0b",
+          "#252524",
+          "#424241",
+          "#616160",
+          "#828381",
+          "#a4a5a4",
+          "#c9c9c8",
+          "#eeeeee"
+        ]
+      },
+      "placa-noite": {
+        "role": "neutral",
+        "displayName": "Placa (Noite)",
+        "cssVar": "--placa",
+        "theme": "noite",
+        "purpose": "Superfícies sobre o chão: monografia, menu aberto.",
+        "canonical": "#141d31",
+        "oklch": "oklch(23.3% 0.041 265.0)",
+        "tonalRamp": [
+          "#070b13",
+          "#1f2531",
+          "#3a4253",
+          "#576177",
+          "#77829a",
+          "#9ba5b9",
+          "#c1c9da",
+          "#e8effc"
+        ]
+      },
+      "tinta-dia": {
+        "role": "neutral",
+        "displayName": "Tinta (Dia)",
+        "cssVar": "--tinta",
+        "theme": "dia",
+        "purpose": "Texto principal, bordas de controles, filetes de 2px.",
+        "canonical": "#1b1f1d",
+        "oklch": "oklch(23.4% 0.007 164.3)",
+        "tonalRamp": [
+          "#0a0c0b",
+          "#232624",
+          "#3f4341",
+          "#5e6260",
+          "#7f8481",
+          "#a2a6a4",
+          "#c7cac8",
+          "#edefee"
+        ]
+      },
+      "tinta-noite": {
+        "role": "neutral",
+        "displayName": "Tinta (Noite)",
+        "cssVar": "--tinta",
+        "theme": "noite",
+        "purpose": "Texto principal, bordas de controles, filetes de 2px.",
+        "canonical": "#e9edf4",
+        "oklch": "oklch(94.5% 0.010 261.8)",
+        "tonalRamp": [
+          "#0a0b0d",
+          "#232528",
+          "#404246",
+          "#5e6167",
+          "#7f8288",
+          "#a2a5aa",
+          "#c7c9cd",
+          "#edeef2"
+        ]
+      },
+      "tinta-suave-dia": {
+        "role": "neutral",
+        "displayName": "Tinta Suave (Dia)",
+        "cssVar": "--tinta-suave",
+        "theme": "dia",
+        "purpose": "Texto de apoio e rótulos secundários.",
+        "canonical": "#4a524d",
+        "oklch": "oklch(43.0% 0.013 158.4)",
+        "tonalRamp": [
+          "#090c0a",
+          "#222624",
+          "#3e4440",
+          "#5c635f",
+          "#7d8580",
+          "#a0a7a3",
+          "#c5cbc7",
+          "#ebf0ed"
+        ]
+      },
+      "tinta-suave-noite": {
+        "role": "neutral",
+        "displayName": "Tinta Suave (Noite)",
+        "cssVar": "--tinta-suave",
+        "theme": "noite",
+        "purpose": "Texto de apoio e rótulos secundários.",
+        "canonical": "#a9b3c6",
+        "oklch": "oklch(76.5% 0.029 263.4)",
+        "tonalRamp": [
+          "#080b11",
+          "#21252e",
+          "#3c424e",
+          "#596171",
+          "#7a8393",
+          "#9ea5b4",
+          "#c3c9d5",
+          "#eaeff8"
+        ]
+      },
+      "bronze-dia": {
+        "role": "secondary",
+        "displayName": "Bronze do Disco (Dia)",
+        "cssVar": "--bronze",
+        "theme": "dia",
+        "purpose": "Preenchimento do disco e do selo. Nunca texto pequeno.",
+        "canonical": "#b0602a",
+        "oklch": "oklch(57.3% 0.123 51.5)",
+        "tonalRamp": [
+          "#1c0300",
+          "#401700",
+          "#683004",
+          "#924b18",
+          "#b76d3d",
+          "#d5946d",
+          "#f2bc9d",
+          "#ffe5cd"
+        ]
+      },
+      "bronze-noite": {
+        "role": "secondary",
+        "displayName": "Bronze do Disco (Noite)",
+        "cssVar": "--bronze",
+        "theme": "noite",
+        "purpose": "Preenchimento do disco e do selo. Nunca texto pequeno.",
+        "canonical": "#bd6b32",
+        "oklch": "oklch(61.0% 0.126 52.6)",
+        "tonalRamp": [
+          "#1c0300",
+          "#401700",
+          "#683000",
+          "#934b13",
+          "#b86d3a",
+          "#d5946b",
+          "#f2bc9b",
+          "#ffe5cc"
+        ]
+      },
+      "bronze-texto-dia": {
+        "role": "secondary",
+        "displayName": "Bronze de Gravação (Dia)",
+        "cssVar": "--bronze-texto",
+        "theme": "dia",
+        "purpose": "Coordenadas, vértices, legenda, tags.",
+        "canonical": "#84431a",
+        "oklch": "oklch(45.7% 0.104 49.5)",
+        "tonalRamp": [
+          "#1a0400",
+          "#3d1a04",
+          "#633417",
+          "#8c4f2c",
+          "#b0704d",
+          "#ce9778",
+          "#ecbea5",
+          "#ffe6d3"
+        ]
+      },
+      "bronze-texto-noite": {
+        "role": "secondary",
+        "displayName": "Bronze de Gravação (Noite)",
+        "cssVar": "--bronze-texto",
+        "theme": "noite",
+        "purpose": "Coordenadas, vértices, legenda, tags.",
+        "canonical": "#e3a06a",
+        "oklch": "oklch(75.9% 0.106 59.1)",
+        "tonalRamp": [
+          "#190500",
+          "#3b1c00",
+          "#61360c",
+          "#89521f",
+          "#ae7343",
+          "#cc9971",
+          "#eac0a0",
+          "#ffe8cf"
+        ]
+      },
+      "patina-dia": {
+        "role": "secondary",
+        "displayName": "Pátina (Dia)",
+        "cssVar": "--patina",
+        "theme": "dia",
+        "purpose": "Gravação grande sobre o bronze.",
+        "canonical": "#f4e4d1",
+        "oklch": "oklch(92.7% 0.031 72.2)",
+        "tonalRamp": [
+          "#0f0a05",
+          "#2b241b",
+          "#4a4034",
+          "#6c5f50",
+          "#8d8070",
+          "#afa395",
+          "#d1c7bc",
+          "#f5ede5"
+        ]
+      },
+      "patina-noite": {
+        "role": "secondary",
+        "displayName": "Pátina (Noite)",
+        "cssVar": "--patina",
+        "theme": "noite",
+        "purpose": "Gravação grande sobre o bronze.",
+        "canonical": "#fbeee0",
+        "oklch": "oklch(95.6% 0.023 69.6)",
+        "tonalRamp": [
+          "#0e0a07",
+          "#2a241e",
+          "#484038",
+          "#695f54",
+          "#8b8075",
+          "#ada399",
+          "#cfc8bf",
+          "#f3ede7"
+        ]
+      },
+      "rio-dia": {
+        "role": "primary",
+        "displayName": "Azul de Hidrografia (Dia)",
+        "cssVar": "--rio",
+        "theme": "dia",
+        "purpose": "A única cor de ação: botão principal, links, foco.",
+        "canonical": "#1f5299",
+        "oklch": "oklch(44.5% 0.128 257.6)",
+        "tonalRamp": [
+          "#000923",
+          "#08244a",
+          "#1d4175",
+          "#3261a3",
+          "#5383c8",
+          "#7ea7e2",
+          "#aacbfc",
+          "#d7f1ff"
+        ]
+      },
+      "rio-noite": {
+        "role": "primary",
+        "displayName": "Azul de Hidrografia (Noite)",
+        "cssVar": "--rio",
+        "theme": "noite",
+        "purpose": "A única cor de ação: botão principal, links, foco.",
+        "canonical": "#8fb6f2",
+        "oklch": "oklch(77.1% 0.096 258.8)",
+        "tonalRamp": [
+          "#020a1d",
+          "#122541",
+          "#294269",
+          "#416293",
+          "#6183b8",
+          "#89a7d4",
+          "#b2cbf0",
+          "#ddf0ff"
+        ]
+      },
+      "sobre-rio-dia": {
+        "role": "primary",
+        "displayName": "Sobre o Rio (Dia)",
+        "cssVar": "--sobre-rio",
+        "theme": "dia",
+        "purpose": "Texto sobre --rio.",
+        "canonical": "#ffffff",
+        "oklch": "oklch(100.0% 0.000 89.9)",
+        "tonalRamp": [
+          "#0b0b0b",
+          "#252525",
+          "#424242",
+          "#616161",
+          "#828282",
+          "#a5a5a5",
+          "#c9c9c9",
+          "#eeeeee"
+        ]
+      },
+      "sobre-rio-noite": {
+        "role": "primary",
+        "displayName": "Sobre o Rio (Noite)",
+        "cssVar": "--sobre-rio",
+        "theme": "noite",
+        "purpose": "Texto sobre --rio.",
+        "canonical": "#0c1322",
+        "oklch": "oklch(18.8% 0.033 264.4)",
+        "tonalRamp": [
+          "#080b12",
+          "#20252f",
+          "#3b4250",
+          "#596173",
+          "#798395",
+          "#9da5b5",
+          "#c3c9d7",
+          "#e9eff9"
+        ]
+      },
+      "terra-roxa-dia": {
+        "role": "tertiary",
+        "displayName": "Terra Roxa (Dia)",
+        "cssVar": "--terra-roxa",
+        "theme": "dia",
+        "purpose": "Acento raro: tag de status e hover de link.",
+        "canonical": "#7a2b1d",
+        "oklch": "oklch(40.3% 0.113 32.2)",
+        "tonalRamp": [
+          "#1c0201",
+          "#40150e",
+          "#682e23",
+          "#93483a",
+          "#b8695a",
+          "#d69183",
+          "#f3b9ad",
+          "#ffe3d9"
+        ]
+      },
+      "terra-roxa-noite": {
+        "role": "tertiary",
+        "displayName": "Terra Roxa (Noite)",
+        "cssVar": "--terra-roxa",
+        "theme": "noite",
+        "purpose": "Acento raro: tag de status e hover de link.",
+        "canonical": "#ef8a72",
+        "oklch": "oklch(73.6% 0.129 34.3)",
+        "tonalRamp": [
+          "#1e0100",
+          "#431207",
+          "#6d2a1b",
+          "#994430",
+          "#be6651",
+          "#db8e7b",
+          "#f8b7a7",
+          "#ffe1d5"
+        ]
+      },
+      "grade-dia": {
+        "role": "neutral",
+        "displayName": "Grade (Dia)",
+        "cssVar": "--grade",
+        "theme": "dia",
+        "purpose": "Grade de coordenadas e divisas. Nunca borda de controle.",
+        "canonical": "#cdd2ce",
+        "oklch": "oklch(85.9% 0.008 151.9)",
+        "tonalRamp": [
+          "#0a0c0a",
+          "#232624",
+          "#404340",
+          "#5e625f",
+          "#7f8480",
+          "#a2a6a3",
+          "#c7cac8",
+          "#edefed"
+        ]
+      },
+      "grade-noite": {
+        "role": "neutral",
+        "displayName": "Grade (Noite)",
+        "cssVar": "--grade",
+        "theme": "noite",
+        "purpose": "Grade de coordenadas e divisas. Nunca borda de controle.",
+        "canonical": "#24304a",
+        "oklch": "oklch(31.1% 0.050 264.7)",
+        "tonalRamp": [
+          "#070b15",
+          "#1e2534",
+          "#384257",
+          "#54617c",
+          "#75829f",
+          "#99a5be",
+          "#bfc9de",
+          "#e7effe"
+        ]
+      },
+      "curva-dia": {
+        "role": "neutral",
+        "displayName": "Curva (Dia)",
+        "cssVar": "--curva",
+        "theme": "dia",
+        "purpose": "Curvas de nível, só de dia.",
+        "canonical": "rgb(176 96 42 / 0.38)",
+        "tonalRamp": [
+          "#1c0300",
+          "#401700",
+          "#683004",
+          "#924b18",
+          "#b76d3d",
+          "#d5946d",
+          "#f2bc9d",
+          "#ffe5cd"
+        ],
+        "note": "Bronze Dia a 38% de opacidade; a rampa é a do bronze."
+      },
+      "estrela-noite": {
+        "role": "neutral",
+        "displayName": "Estrela (Noite)",
+        "cssVar": "--estrela",
+        "theme": "noite",
+        "purpose": "Estrelas, só à noite.",
+        "canonical": "#fbeee0",
+        "oklch": "oklch(95.6% 0.023 69.6)",
+        "tonalRamp": [
+          "#0e0a07",
+          "#2a241e",
+          "#484038",
+          "#695f54",
+          "#8b8075",
+          "#ada399",
+          "#cfc8bf",
+          "#f3ede7"
+        ]
+      },
+      "ceu-do-sul": {
+        "role": "neutral",
+        "displayName": "Cruzeiro (fixo)",
+        "cssVar": "--ceu-do-sul",
+        "theme": "ambos",
+        "purpose": "Fixo; centro do símbolo Cruzeiro (não usado no site).",
+        "canonical": "#0f1a33",
+        "oklch": "oklch(22.3% 0.051 264.7)",
+        "tonalRamp": [
+          "#070b15",
+          "#1d2535",
+          "#384257",
+          "#54617d",
+          "#7482a0",
+          "#99a5bf",
+          "#bfc9de",
+          "#e7efff"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "Só o título do herói, uma vez por página. font-stretch 125% via --display-largura; text-wrap: balance; até 14ch."
+      },
+      "display-celular": {
+        "displayName": "Display (celular)",
+        "purpose": "Título do herói até 640px: cerca de 34px em 390px, três linhas, botão principal na primeira tela."
+      },
+      "titulo-1": {
+        "displayName": "Título 1",
+        "purpose": "Título de seção. Contato usa clamp(2.25rem, 4.4vw, 3.5rem)."
+      },
+      "titulo-2": {
+        "displayName": "Título 2",
+        "purpose": "Serviço, curso, título da monografia, assinatura. font-stretch 112%."
+      },
+      "corpo": {
+        "displayName": "Corpo",
+        "purpose": "Parágrafos, até 58–62ch."
+      },
+      "corpo-pequeno": {
+        "displayName": "Corpo pequeno",
+        "purpose": "Tags, direitos no rodapé."
+      },
+      "rotulo": {
+        "displayName": "Rótulo",
+        "purpose": "Botões, seletor de tema, termos de listas. Caixa normal."
+      },
+      "coordenada": {
+        "displayName": "Coordenada",
+        "purpose": "Coordenadas, anos, rótulos da grade. Só números medidos. Cor --bronze-texto."
+      }
+    },
+    "shadows": [],
+    "elevationNote": "Sistema plano: nenhum box-shadow. Profundidade por tom (--placa sobre --chao) e filetes (1px --grade, 2px --tinta).",
+    "motion": [
+      {
+        "name": "tempo-pressao",
+        "value": "160ms",
+        "purpose": "Botão afundando (scale 0.97)."
+      },
+      {
+        "name": "tempo-resposta",
+        "value": "200ms",
+        "purpose": "Hover, entrada do menu, ícone do menu virando X."
+      },
+      {
+        "name": "saida-menu",
+        "value": "150ms",
+        "purpose": "Saída do menu do celular (valor literal no CSS)."
+      },
+      {
+        "name": "giro-icone-tema",
+        "value": "250ms cubic-bezier(0.16, 1, 0.3, 1)",
+        "purpose": "Ícone do tema entra de rotate(-90deg) scale(0.6) (valor literal no CSS)."
+      },
+      {
+        "name": "tempo-tema",
+        "value": "400ms",
+        "purpose": "View Transition da página inteira na troca de tema (timing ease)."
+      },
+      {
+        "name": "momento-medir",
+        "value": "900ms cubic-bezier(0.16, 1, 0.3, 1), +70ms por curva",
+        "purpose": "Única animação automática: curvas se desenham do marco para fora; à noite, estrelas acendem."
+      },
+      {
+        "name": "curva-saida",
+        "value": "cubic-bezier(0.16, 1, 0.3, 1)",
+        "purpose": "O que entra ou responde a um toque."
+      },
+      {
+        "name": "curva-movimento",
+        "value": "cubic-bezier(0.77, 0, 0.175, 1)",
+        "purpose": "O que se transforma no lugar (ícone do menu)."
+      },
+      {
+        "name": "reduced-motion",
+        "value": "prefers-reduced-motion: reduce",
+        "purpose": "Nada se desloca, gira ou se desenha; View Transition pulada; scroll-behavior auto; cores ainda mudam suavemente."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "menu",
+        "value": "1000px",
+        "purpose": "Links viram menu; terreno vira faixa acima do título; grades em uma coluna."
+      },
+      {
+        "name": "celular",
+        "value": "640px",
+        "purpose": "Display em clamp de celular; seletor de tema dentro do menu; botões em largura total."
+      }
+    ],
+    "layout": {
+      "faixa": "max-width calc(1120px + 64px), padding lateral 32px",
+      "topo": "72px, sticky, fundo --chao a 94%",
+      "secao": "128px vertical (80px até 640px), divisa 1px --grade",
+      "scrollPaddingTop": "88px"
+    },
+    "focus": "outline: 3px solid var(--rio); outline-offset: 2px; só :focus-visible, sem transição"
+  },
+  "components": [
+    {
+      "name": "Botão principal",
+      "kind": "button",
+      "refersTo": "botao-principal",
+      "description": "A ação principal da página (Falar no WhatsApp). Único botão azul.",
+      "html": "<a class=\"ds-botao-principal\" href=\"#\">Falar no WhatsApp</a>",
+      "css": ".ds-botao-principal { display:inline-flex; align-items:center; justify-content:center; min-height:48px; padding:16px 32px; border-radius:6px; background:var(--rio, #1f5299); color:var(--sobre-rio, #ffffff); font:700 0.9375rem/1.3 \"Atkinson Hyperlegible Next\", Verdana, sans-serif; text-decoration:none; transition: background-color 200ms ease, transform 160ms cubic-bezier(0.16,1,0.3,1); } .ds-botao-principal:hover { background: color-mix(in srgb, var(--rio, #1f5299) 82%, var(--tinta, #1b1f1d)); } .ds-botao-principal:focus-visible { outline:3px solid var(--rio, #1f5299); outline-offset:2px; } .ds-botao-principal:active { transform: scale(0.97); }"
+    },
+    {
+      "name": "Botão secundário",
+      "kind": "button",
+      "refersTo": "botao-secundario",
+      "description": "Ação alternativa (Enviar e-mail, Ver o código no GitHub). Borda de tinta, vira azul no hover.",
+      "html": "<a class=\"ds-botao-secundario\" href=\"#\">Enviar e-mail</a>",
+      "css": ".ds-botao-secundario { display:inline-flex; align-items:center; justify-content:center; min-height:48px; padding:14px 32px; border:2px solid var(--tinta, #1b1f1d); border-radius:6px; background:transparent; color:var(--tinta, #1b1f1d); font:700 0.9375rem/1.3 \"Atkinson Hyperlegible Next\", Verdana, sans-serif; text-decoration:none; transition: color 200ms ease, border-color 200ms ease, transform 160ms cubic-bezier(0.16,1,0.3,1); } .ds-botao-secundario:hover { color:var(--rio, #1f5299); border-color:var(--rio, #1f5299); } .ds-botao-secundario:focus-visible { outline:3px solid var(--rio, #1f5299); outline-offset:2px; } .ds-botao-secundario:active { transform: scale(0.97); }"
+    },
+    {
+      "name": "Seletor de tema",
+      "kind": "button",
+      "refersTo": "seletor-tema",
+      "description": "Troca Dia/Noite na página inteira; ícone e palavra do tema atual.",
+      "html": "<button class=\"ds-seletor-tema\" type=\"button\" aria-label=\"Dia, mudar para Noite\"><svg width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" aria-hidden=\"true\"><circle cx=\"10\" cy=\"10\" r=\"4\" fill=\"currentColor\"/><g stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\"><path d=\"M10 1.5v2.5M10 16v2.5M1.5 10h2.5M16 10h2.5\"/></g></svg>Dia</button>",
+      "css": ".ds-seletor-tema { display:inline-flex; align-items:center; gap:8px; min-height:44px; padding:0 16px; border:2px solid var(--tinta, #1b1f1d); border-radius:6px; background:transparent; color:var(--tinta, #1b1f1d); font:700 0.9375rem/1 \"Atkinson Hyperlegible Next\", Verdana, sans-serif; cursor:pointer; transition: color 200ms ease, border-color 200ms ease, transform 160ms cubic-bezier(0.16,1,0.3,1); } .ds-seletor-tema:hover { color:var(--rio, #1f5299); border-color:var(--rio, #1f5299); } .ds-seletor-tema:focus-visible { outline:3px solid var(--rio, #1f5299); outline-offset:2px; } .ds-seletor-tema:active { transform: scale(0.97); }"
+    },
+    {
+      "name": "Navegação",
+      "kind": "nav",
+      "refersTo": "menu-celular",
+      "description": "Links das seções; o atual fica azul e sublinhado.",
+      "html": "<nav class=\"ds-menu\" aria-label=\"Seções\"><a href=\"#\">Serviços</a><a href=\"#\" aria-current=\"true\">Sobre</a><a href=\"#\">Formação</a><a href=\"#\">Contato</a></nav>",
+      "css": ".ds-menu { display:flex; gap:28px; padding:16px 0; border-bottom:1px solid var(--grade, #cdd2ce); font:400 1rem/1.6 \"Atkinson Hyperlegible Next\", Verdana, sans-serif; } .ds-menu a { padding:8px 0; color:var(--tinta, #1b1f1d); text-decoration:none; transition: color 200ms ease; } .ds-menu a:hover { color:var(--rio, #1f5299); } .ds-menu a[aria-current=\"true\"] { color:var(--rio, #1f5299); text-decoration:underline; text-decoration-thickness:2px; text-underline-offset:0.4em; } .ds-menu a:focus-visible { outline:3px solid var(--rio, #1f5299); outline-offset:2px; }"
+    },
+    {
+      "name": "Tags",
+      "kind": "chip",
+      "refersTo": "tag",
+      "description": "Ferramentas no Sobre; a variante de acento marca status na poligonal.",
+      "html": "<ul class=\"ds-tags\"><li>Python</li><li>JavaScript e Node.js</li><li class=\"ds-tag-acento\">Em andamento</li></ul>",
+      "css": ".ds-tags { display:flex; flex-wrap:wrap; gap:8px; margin:0; padding:0; list-style:none; font:400 0.9375rem/1.5 \"Atkinson Hyperlegible Next\", Verdana, sans-serif; color:var(--tinta, #1b1f1d); } .ds-tags li { padding:4px 10px; border:1px solid var(--bronze-texto, #84431a); border-radius:6px; } .ds-tags .ds-tag-acento { border-color:var(--terra-roxa, #7a2b1d); color:var(--terra-roxa, #7a2b1d); font-weight:700; }"
+    },
+    {
+      "name": "Monografia",
+      "kind": "card",
+      "refersTo": "monografia",
+      "description": "A ficha do marco: placa com termos e definições, números medidos em bronze.",
+      "html": "<div class=\"ds-monografia\"><h3>Monografia deste site</h3><dl><div><dt>Contraste</dt><dd><span class=\"ds-dado\">6,3:1</span> ou mais nos dois temas.</dd></div><div><dt>Temas</dt><dd>Dia e Noite, seguindo o seu sistema.</dd></div></dl></div>",
+      "css": ".ds-monografia { padding:32px; background:var(--placa, #f7f8f6); border-radius:16px; color:var(--tinta, #1b1f1d); font:400 1rem/1.6 \"Atkinson Hyperlegible Next\", Verdana, sans-serif; } .ds-monografia h3 { margin:0 0 16px; font:700 1.625rem/1.25 Archivo, Verdana, sans-serif; font-stretch:112%; letter-spacing:-0.01em; } .ds-monografia dl { margin:0; } .ds-monografia dl > div { display:grid; grid-template-columns:7.5rem minmax(0,1fr); gap:16px; padding:16px 0; border-top:1px solid var(--grade, #cdd2ce); } .ds-monografia dt { font-weight:700; font-size:0.9375rem; } .ds-monografia dd { margin:0; } .ds-dado { font-weight:700; font-variant-numeric:tabular-nums; color:var(--bronze-texto, #84431a); }"
+    },
+    {
+      "name": "Poligonal",
+      "kind": "custom",
+      "refersTo": "poligonal",
+      "description": "Formação como levantamento: linha de bronze ligando vértices de 14px.",
+      "html": "<ol class=\"ds-poligonal\"><li><svg class=\"ds-vertice\" width=\"14\" height=\"14\" viewBox=\"0 0 16 16\" aria-hidden=\"true\"><path d=\"M8 2 L14 13 L2 13 Z\"/><circle cx=\"8\" cy=\"9.4\" r=\"1.6\"/></svg><p class=\"ds-coordenada\">2025–2029</p><h3>Bacharelado em Ciência da Computação</h3><p class=\"ds-inst\">UNINTER</p></li><li><svg class=\"ds-vertice\" width=\"14\" height=\"14\" viewBox=\"0 0 16 16\" aria-hidden=\"true\"><path d=\"M8 2 L14 13 L2 13 Z\"/><circle cx=\"8\" cy=\"9.4\" r=\"1.6\"/></svg><p class=\"ds-coordenada\">2020–2021</p><h3>Técnico em Análise e Desenvolvimento de Sistemas</h3><p class=\"ds-inst\">SENAI Zerbini, Campinas (SP)</p></li></ol>",
+      "css": ".ds-poligonal { position:relative; margin:0; padding:0; list-style:none; color:var(--tinta, #1b1f1d); font:400 1.125rem/1.6 \"Atkinson Hyperlegible Next\", Verdana, sans-serif; } .ds-poligonal::before { content:\"\"; position:absolute; left:6px; top:14px; bottom:14px; width:2px; background:var(--bronze-texto, #84431a); } .ds-poligonal li { position:relative; padding:0 0 56px 48px; } .ds-poligonal li:last-child { padding-bottom:0; } .ds-vertice { position:absolute; left:0; top:7px; color:var(--bronze-texto, #84431a); } .ds-vertice path { fill:var(--chao, #ebedea); stroke:currentColor; stroke-width:2; stroke-linejoin:round; } .ds-vertice circle { fill:currentColor; } .ds-poligonal p, .ds-poligonal h3 { margin:0; } .ds-coordenada { font:400 0.9375rem/1.4 \"Atkinson Hyperlegible Mono\", ui-monospace, monospace; font-variant-numeric:tabular-nums; color:var(--bronze-texto, #84431a); } .ds-poligonal h3 { margin-top:8px; font:700 1.625rem/1.25 Archivo, Verdana, sans-serif; font-stretch:112%; letter-spacing:-0.01em; } .ds-inst { margin-top:4px; color:var(--tinta-suave, #4a524d); }"
+    },
+    {
+      "name": "Régua de coordenadas",
+      "kind": "custom",
+      "refersTo": "medida",
+      "description": "Coordenadas medidas no pé da primeira tela.",
+      "html": "<dl class=\"ds-medida\"><div><dt>Latitude</dt><dd class=\"ds-coord\">23°33′01″S</dd></div><div><dt>Longitude</dt><dd class=\"ds-coord\">46°38′02″W</dd></div><div><dt>Ponto</dt><dd>Marco zero de São Paulo (SP)</dd></div></dl>",
+      "css": ".ds-medida { display:flex; flex-wrap:wrap; gap:16px 48px; margin:0; padding-top:16px; border-top:1px solid var(--grade, #cdd2ce); color:var(--tinta, #1b1f1d); font:400 1rem/1.6 \"Atkinson Hyperlegible Next\", Verdana, sans-serif; } .ds-medida dt { font-size:0.8125rem; font-weight:700; color:var(--tinta-suave, #4a524d); } .ds-medida dd { margin:2px 0 0; } .ds-coord { font-family:\"Atkinson Hyperlegible Mono\", ui-monospace, monospace; font-variant-numeric:tabular-nums; color:var(--bronze-texto, #84431a); }"
+    }
+  ],
+  "narrative": {
+    "northStar": "O Marco Geodésico",
+    "overview": "**Creative North Star: \"O Marco Geodésico\"**\n\nO Ícaro é um disco de bronze chumbado no concreto, com a posição medida pelas estrelas, que qualquer pessoa pode usar como referência. A página é uma carta topográfica de um ponto só: de dia, o chão (concreto claro, curvas de nível em sépia, grade de coordenadas fina); à noite, o céu do Sul (as curvas somem e aparecem as estrelas que posicionaram o marco). O seletor de tema troca a planta inteira, não só as cores.\n\nA densidade é calma e editorial: seções largas separadas por divisas finas, colunas de texto curtas, muito chão em volta. O vocabulário visual vem do levantamento topográfico e não de interface genérica: legenda de carta em vez de cartões de serviço, poligonal em vez de linha do tempo, monografia de marco em vez de lista de recursos, coordenadas medidas em vez de enfeite técnico. Nada flutua; tudo está apoiado no chão.\n\nO site recusa o portfólio de dev padrão: nome gigante com foto ao lado, três cartões de serviço, fundo escuro com gradiente. O livro da marca recusa também gradientes azul-roxo, cartões com emoji, fundo creme com acento terracota e brilhos de \"IA\".",
+    "keyCharacteristics": [
+      "Dois temas com cenas diferentes: Dia é o chão (curvas e grade), Noite é o céu (estrelas).",
+      "Paleta de papéis fixos: concreto, bronze, azul de rio e terra roxa.",
+      "Archivo expandida a 125% nos títulos, Atkinson Hyperlegible Next no texto, Atkinson Hyperlegible Mono só em dados medidos.",
+      "Plano: profundidade só por tom (placa sobre chão) e por linhas de grade, nunca por sombra.",
+      "Cantos de placa estampada (6px); o círculo pertence só ao disco do marco.",
+      "Uma única animação automática: o terreno sendo medido ao abrir."
+    ],
+    "rules": [
+      {
+        "name": "A Regra do Rio",
+        "body": "O `--rio` é a única cor de ação. Se algo é azul, dá para clicar; se dá para clicar, o estado de foco é azul.",
+        "section": "colors"
+      },
+      {
+        "name": "A Regra da Terra Roxa",
+        "body": "No máximo um elemento em `--terra-roxa` por tela, e nunca para sinalizar erro.",
+        "section": "colors"
+      },
+      {
+        "name": "A Regra do Bronze que Escreve",
+        "body": "`--bronze` preenche (o disco, o selo); `--bronze-texto` escreve e traça (coordenadas, vértices, legenda). Texto pequeno nunca vai em `--bronze`.",
+        "section": "colors"
+      },
+      {
+        "name": "A Regra da Caixa Normal",
+        "body": "Nenhum texto em maiúsculas, nem o aro gravado do marco, nem rótulos, nem botões.",
+        "section": "typography"
+      },
+      {
+        "name": "A Regra do Número Medido",
+        "body": "A mono só aparece em coordenadas, anos e números medidos. Se não é uma medida, não é mono.",
+        "section": "typography"
+      },
+      {
+        "name": "A Regra do Chão Plano",
+        "body": "Nada flutua. Sem sombras, sem brilhos, sem desfoque de fundo. Se algo precisa se destacar, ganha uma placa ou um filete, não uma sombra.",
+        "section": "elevation"
+      },
+      {
+        "name": "A Regra de Um Disco",
+        "body": "No máximo um disco de bronze por seção. O resto da seção se organiza em volta dele.",
+        "section": "shapes"
+      }
+    ],
+    "dos": [
+      "Do use apenas os tokens de `css/tokens.css`, copiados de `marca-icaro-silva/marca/tokens.css`; um valor novo nasce no livro da marca, não no site.",
+      "Do dê a cada token o seu papel nos dois temas: `--rio` para ação, `--bronze` para preencher, `--bronze-texto` para escrever, `--grade` para dividir.",
+      "Do use cantos de 6px em controles e tags, 16px em placas e foto, e o círculo só no disco do marco.",
+      "Do separe superfícies por tom e por filete (1px `--grade`, 2px `--tinta`), nunca por sombra.",
+      "Do trate cada lista como peça de levantamento: legenda de carta, poligonal, monografia, régua de coordenadas.",
+      "Do restrinja hover a `(hover: hover) and (pointer: fine)` e envolva todo deslocamento, giro ou desenho em `prefers-reduced-motion: no-preference`.",
+      "Do escreva rótulos de botão que digam a ação exata, em caixa normal."
+    ],
+    "donts": [
+      "Don't use `box-shadow`, brilho, desfoque de fundo ou gradiente em nenhuma superfície.",
+      "Don't use texto em maiúsculas, nem no aro do marco.",
+      "Don't use a mono como enfeite técnico; ela é só para coordenadas, anos e números medidos.",
+      "Don't pinte de azul o que não é clicável, nem use `--terra-roxa` para erro ou em mais de um elemento por tela.",
+      "Don't use `--grade` como borda de botão ou campo.",
+      "Don't espalhe curvas de nível como papel de parede; elas ficam no herói e no fragmento do Contato.",
+      "Don't use asas, sóis e engrenagens como enfeite fora da logo; o sol e a lua do seletor de tema são ícone de estado, não ornamento.",
+      "Don't adicione animações automáticas além do terreno sendo medido, nem nada que apareça na rolagem.",
+      "Don't use estrelas de cinco pontas, bandeiras, brilhos de \"IA\" (✦), cartões com emoji ou numeração de seções."
+    ]
+  }
+}
