@@ -310,7 +310,7 @@ A linha do tempo desenhada como levantamento: uma linha vertical de 2px em `--br
 A ficha do marco, aplicada ao próprio site: uma placa (`--placa`, 16px de canto, 32px de padding) com título em Título 2 e uma lista de termos e definições em duas colunas (7.5rem e o resto), cada linha separada por `--grade`. Números medidos (como as razões de contraste) vão em negrito, algarismos tabulares e `--bronze-texto`.
 
 ### Régua de coordenadas
-No pé da primeira tela, uma linha de 1px em `--grade` com três medidas lado a lado (48px entre elas): rótulos curtos em `--tinta-suave` e valores em coordenada mono. É a mesma coordenada que se repete no rodapé.
+No pé da primeira tela, uma linha de 1px em `--grade` com três medidas lado a lado (48px entre elas): rótulos curtos em `--tinta-suave` e valores em coordenada mono. Todos os valores, inclusive o do Ponto (que não é mono), usam a entrelinha 1.4 da coordenada, para ficarem na mesma linha de base. É a mesma coordenada que se repete no rodapé.
 
 ### Vértices de divisa
 Um vértice de 14px sentado sobre a divisa inferior de cada seção, na margem esquerda da coluna, como as estações de um levantamento. Decorativo (`aria-hidden`).
