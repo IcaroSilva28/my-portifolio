@@ -264,7 +264,7 @@ O sistema é plano. Não existe nenhum `box-shadow` no site. A profundidade vem 
 
 ## Shapes
 
-Cantos de placa estampada: botões, controles, tags e o atalho de teclado usam 6px (`raio-sm`); a foto e a monografia usam 16px (`raio-lg`). Não há pílulas. O círculo pleno (`disco`, 50%) pertence só ao emblema do marco: o disco grande do herói, cortado pela borda direita, com dois frisos concêntricos e o texto do aro, e o selo pequeno do Contato.
+Cantos de placa estampada: botões, controles, tags e o atalho de teclado usam 6px (`raio-sm`); a foto e a monografia usam 16px (`raio-lg`). Não há pílulas. O círculo pleno (`disco`, 50%) pertence só ao emblema do marco: o disco grande do herói, cortado pela borda direita, com dois frisos concêntricos e o texto do aro centralizado entre eles (o mesmo espaço até cada friso), e o selo pequeno do Contato.
 
 A outra forma recorrente é o vértice de triangulação: um triângulo de contorno com um ponto no centro (14px), em `--bronze-texto`, com o miolo pintado de `--chao`. Ele marca cada curso da poligonal e cada divisa entre seções.
 
