@@ -67,7 +67,7 @@ Serviços oferecidos às empresas:
 
 ## Evidence on Hand
 
-- **Foto:** `assets/img/profile.jpg`.
+- **Foto:** `assets/img/profile_v2.jpeg` (original) e `assets/img/profile-v2-rosto.jpg` (o recorte usado no Sobre).
 - **Formação:**
   - Técnico em Análise e Desenvolvimento de Sistemas, SENAI Zerbini, Campinas (SP), 2020–2021
   - Certificação em Desenvolvimento Web Full Stack, Programador BR, 2021

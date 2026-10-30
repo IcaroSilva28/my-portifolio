@@ -261,7 +261,7 @@ Lançamento em português. Depois, espanhol, francês e inglês. O seletor mostr
 
 ## Fotos
 
-Uma ou duas fotos do Ícaro no site inteiro, com cantos `raio-lg`. Fotos reais, com luz natural, sem filtros que mudem a cor da pele. No Sobre, a foto é recortada no rosto, em 4 por 5 e com até 340px de largura. Hoje é um recorte da foto disponível (`assets/img/profile-rosto.jpg` no site), até chegar uma com luz natural.
+Uma ou duas fotos do Ícaro no site inteiro, com cantos `raio-lg`. Fotos reais, com luz natural, sem filtros que mudem a cor da pele. No Sobre, a foto é recortada no rosto, em 4 por 5 e com até 340px de largura. Hoje é `assets/img/profile-v2-rosto.jpg` no site: o recorte de `profile_v2.jpeg` na cabeça e nos ombros, em 680 por 850 (o dobro dos 340px) e sem metadados.
 
 ## O que evitar
 
