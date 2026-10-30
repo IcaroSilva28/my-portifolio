@@ -5,7 +5,7 @@ primary_target: "index.html"
 related_targets: []
 ---
 
-# Portfólio Ícaro Silva: página inicial
+# Portfólio Ícaro Gavioli: página inicial
 
 ## Scope and mode
 
@@ -25,7 +25,7 @@ OWN-WORLD: Concreto claro de dia, céu do Sul à noite. Disco de bronze com o s�
 
 STORY: Em segundos o visitante entende que o Ícaro cria sistemas que funcionam para todo mundo (sites e apps acessíveis, dados, segurança), acredita que ele é uma referência firme e fala no WhatsApp.
 
-FIRST VIEWPORT: Terreno em curvas de nível ocupa a tela inteira. O disco do marco, grande e cortado pela borda direita, carrega o sol e a asa (logo v3) gravados em pátina e o nome gravado no aro. À esquerda, sobre as curvas, o título em Archivo expandida (cerca de 76px), uma frase de apoio e os botões "Falar no WhatsApp" (azul, principal) e "Enviar e-mail". No rodapé da dobra, as coordenadas do marco em mono.
+FIRST VIEWPORT: Terreno em curvas de nível ocupa a tela inteira. O disco do marco, grande e cortado pela borda direita, carrega o sol, a estrela e as asas (logo v4) gravados em pátina e o nome gravado no aro. À esquerda, sobre as curvas, o título em Archivo expandida (cerca de 76px), uma frase de apoio e os botões "Falar no WhatsApp" (azul, principal) e "Enviar e-mail". No rodapé da dobra, as coordenadas do marco em mono.
 
 FORM: Marco geodésico, primeiro da lista ordenada (escolhido pelo usuário como IMPECCABLE'S PICK; o sorteio havia apontado o sexto, planta de jardim). seed:a17d60e1c093238f
 
@@ -41,7 +41,7 @@ O seletor Dia/Noite troca o chão pelo céu: de dia o terreno e o concreto; de n
 
 ## Resolved
 
-- Logo: Sol e asa (v3), em `marca-icaro-silva/marca/assets/v3/`. No herói, o disco de bronze do marco leva a versão de favicon da logo gravada em pátina, e a logo completa vai na navegação.
+- Logo: v4 (Ícaro Gavioli), em `marca-icaro-gavioli/marca/assets/v4/`. No herói, o disco de bronze do marco leva o símbolo v4 gravado em pátina e o aro "Ícaro Gavioli · marco zero de São Paulo ·"; a logo horizontal vai na navegação; o selo do Contato é o disco com a estrela, como o favicon.
 
 - Assinatura: "Um ponto firme, guiado pelo céu do Sul."
 - Coordenadas do marco: São Paulo, marco zero da Praça da Sé, 23°33′01″S 46°38′02″W.

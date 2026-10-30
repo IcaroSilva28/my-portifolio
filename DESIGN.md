@@ -1,6 +1,6 @@
 ---
-name: Ícaro Silva
-description: O marco geodésico, com o sol e a asa. Concreto claro de dia, céu do Sul à noite.
+name: Ícaro Gavioli
+description: O marco geodésico, com o sol, a estrela e as asas. Concreto claro de dia, céu do Sul à noite.
 colors:
   chao-dia: "#ebedea"
   chao-noite: "#0c1322"
@@ -27,6 +27,7 @@ colors:
   curva-dia: "rgb(176 96 42 / 0.38)"
   estrela-noite: "#fbeee0"
   ceu-do-sul: "#0f1a33"
+  friso-escurecedor: "#000000"
 typography:
   display:
     fontFamily: "Archivo, Verdana, sans-serif"
@@ -56,6 +57,33 @@ typography:
     lineHeight: 1.25
     letterSpacing: "-0.01em"
     fontVariation: "'wdth' 112"
+  titulo-fechamento:
+    fontFamily: "Archivo, Verdana, sans-serif"
+    fontSize: "clamp(2.25rem, 4.4vw, 3.5rem)"
+    fontWeight: 800
+    lineHeight: 1.1
+    letterSpacing: "-0.02em"
+    fontVariation: "'wdth' 125"
+  destaque:
+    fontFamily: "Atkinson Hyperlegible Next, Verdana, sans-serif"
+    fontSize: "1.375rem"
+    fontWeight: 400
+    lineHeight: 1.5
+  apoio:
+    fontFamily: "Atkinson Hyperlegible Next, Verdana, sans-serif"
+    fontSize: "1.25rem"
+    fontWeight: 400
+    lineHeight: 1.6
+  corpo-medio:
+    fontFamily: "Atkinson Hyperlegible Next, Verdana, sans-serif"
+    fontSize: "1rem"
+    fontWeight: 400
+    lineHeight: 1.6
+  rotulo-minimo:
+    fontFamily: "Atkinson Hyperlegible Next, Verdana, sans-serif"
+    fontSize: "0.8125rem"
+    fontWeight: 700
+    lineHeight: 1.4
   corpo:
     fontFamily: "Atkinson Hyperlegible Next, Verdana, sans-serif"
     fontSize: "1.125rem"
@@ -134,9 +162,9 @@ components:
     padding: "16px 32px 32px"
 ---
 
-# Design System: Ícaro Silva
+# Design System: Ícaro Gavioli
 
-> A fonte da verdade da identidade é o livro da marca, `marca-icaro-silva/marca/README.md`, com `tokens.css` e `tokens.json` na mesma pasta. Este arquivo registra como essa marca ficou no site construído (`index.html`, `css/style.css`, `css/tokens.css`, `js/script.js`). Os tokens de `css/tokens.css` são uma cópia literal dos da marca: mude lá primeiro e copie para cá. Em 28/10/2026 o livro foi atualizado para refletir as decisões do site, e os dois estão alinhados. Se voltarem a divergir, vale o livro: corrija o site ou atualize o livro, nunca deixe a diferença em silêncio.
+> A fonte da verdade da identidade é o livro da marca, `marca-icaro-gavioli/marca/README.md`, com `tokens.css` e `tokens.json` na mesma pasta. Este arquivo registra como essa marca ficou no site construído (`index.html`, `css/style.css`, `css/tokens.css`, `js/script.js`). Os tokens de `css/tokens.css` são uma cópia literal dos da marca: mude lá primeiro e copie para cá. Em 28/10/2026 o livro foi atualizado para refletir as decisões do site, e os dois estão alinhados. Se voltarem a divergir, vale o livro: corrija o site ou atualize o livro, nunca deixe a diferença em silêncio.
 
 ## Overview
 
@@ -261,7 +289,7 @@ Diretos e tocáveis: dizem exatamente o que fazem ("Falar no WhatsApp", "Enviar 
 Cor `--rio`, sublinhado de 1px afastado 0.22em. No hover (só com mouse) viram `--terra-roxa`.
 
 ### Navigation
-- **Topo:** fixo, 72px, logo completa à esquerda (206 por 42px, versão Dia ou Noite conforme o tema), links das seções no centro-direita com 28px entre eles, controles à direita.
+- **Topo:** fixo, 72px, logo horizontal à esquerda (36px de altura, cerca de 185px de largura, versão Dia ou Noite conforme o tema), links das seções no centro-direita com 28px entre eles, controles à direita.
 - **Item atual:** o link da seção visível fica `--rio` com sublinhado de 2px afastado 0.4em, marcado com `aria-current`.
 - **Menu do celular (até 1000px):** botão "Menu" com ícone de três linhas que vira um X (`curva-movimento`, 200ms). O painel é uma placa sob o topo, com links empilhados de 1.125rem separados por `--grade`. Entra descendo 8px e aparecendo em 200ms, sai em 150ms. Ao abrir, o foco vai para o primeiro link; Esc fecha e devolve o foco ao botão; clicar num link fecha. Até 640px o seletor de tema mora dentro do menu.
 - **Atalho "Pular para o conteúdo":** primeiro elemento da página, escondido até receber foco; aparece instantaneamente como um botão principal pequeno.
@@ -288,10 +316,10 @@ No pé da primeira tela, uma linha de 1px em `--grade` com três medidas lado a 
 Um vértice de 14px sentado sobre a divisa inferior de cada seção, na margem esquerda da coluna, como as estações de um levantamento. Decorativo (`aria-hidden`).
 
 ### Terreno do herói
-SVG que cobre a primeira tela (`xMaxYMid slice`): grade de coordenadas, rótulos de latitude e longitude em mono, oito curvas de nível concêntricas ao marco (duas mestras), estrelas e o disco de bronze grande, cortado pela borda direita, com dois frisos (`--bronze` 72% com preto), o símbolo da logo (versão favicon) gravado em `--patina` e o aro "Ícaro Silva · marco zero de São Paulo ·" em Archivo 700, largura 112%. De dia as curvas aparecem e as estrelas não; à noite, o contrário, por meio dos tokens `--curva` e `--estrela`.
+SVG que cobre a primeira tela (`xMaxYMid slice`): grade de coordenadas, rótulos de latitude e longitude em mono, oito curvas de nível concêntricas ao marco (duas mestras), estrelas e o disco de bronze grande, cortado pela borda direita, com dois frisos (`--bronze` 72% com preto, o `friso-escurecedor`), o símbolo da logo v4 (o sol, a estrela e as asas) gravado em `--patina` e o aro "Ícaro Gavioli · marco zero de São Paulo ·" em Archivo 700, largura 112%. De dia as curvas aparecem e as estrelas não; à noite, o contrário, por meio dos tokens `--curva` e `--estrela`.
 
 ### Fragmento de terreno do Contato
-No Contato, um pedaço de terreno à direita (até 46% da largura, 640px) com curvas de nível em volta de um selo pequeno: um disco de bronze de 68px com o símbolo gravado em pátina e a coordenada ao lado em mono `--bronze-texto`. Some abaixo de 1000px.
+No Contato, um pedaço de terreno à direita (até 46% da largura, 640px) com curvas de nível em volta de um selo pequeno: um disco de bronze de 68px com a estrela da logo gravada em pátina, igual ao favicon e a coordenada ao lado em mono `--bronze-texto`. Some abaixo de 1000px.
 
 ### Movimento
 - **O momento:** ao abrir, as curvas do herói se desenham do marco para fora (900ms, `curva-saida`, 70ms de defasagem por curva); à noite, as estrelas acendem juntas (900ms). É a única animação automática.
@@ -305,7 +333,7 @@ Contraste de pelo menos 4.5:1 em todo texto nos dois temas (os tokens garantem 6
 ## Do's and Don'ts
 
 ### Do:
-- **Do** use apenas os tokens de `css/tokens.css`, copiados de `marca-icaro-silva/marca/tokens.css`; um valor novo nasce no livro da marca, não no site.
+- **Do** use apenas os tokens de `css/tokens.css`, copiados de `marca-icaro-gavioli/marca/tokens.css`; um valor novo nasce no livro da marca, não no site.
 - **Do** dê a cada token o seu papel nos dois temas: `--rio` para ação, `--bronze` para preencher, `--bronze-texto` para escrever, `--grade` para dividir.
 - **Do** use cantos de 6px em controles e tags, 16px em placas e foto, e o círculo só no disco do marco.
 - **Do** separe superfícies por tom e por filete (1px `--grade`, 2px `--tinta`), nunca por sombra.

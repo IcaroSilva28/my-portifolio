@@ -13,7 +13,7 @@ web
 
 ## Product Purpose
 
-Site de apresentação do Ícaro Silva. Ele existe para conquistar clientes e para mostrar a trajetória do Ícaro como tecnologista interessado em ciências sociais.
+Site de apresentação do Ícaro Gavioli. Ele existe para conquistar clientes e para mostrar a trajetória do Ícaro como tecnologista interessado em ciências sociais.
 
 O site funciona quando uma empresa entende o que o Ícaro oferece e entra em contato pelo WhatsApp ou por e-mail.
 
@@ -50,9 +50,9 @@ Serviços oferecidos às empresas:
 
 ## Brand Commitments
 
-- **Fonte da verdade:** `marca-icaro-silva/marca/README.md` (identidade versão 3, o marco geodésico com o sol e a asa, de 28/10/2026), com os tokens em `marca-icaro-silva/marca/tokens.css` e `tokens.json`. Quando o código atual discorda desse documento, vale o documento. A versão 1.0 (sol e asa) está arquivada em `marca-icaro-silva/marca/v1/`.
+- **Fonte da verdade:** `marca-icaro-gavioli/marca/README.md` (identidade versão 4, o marco geodésico com o sol, a estrela e as asas, de 29/10/2026), com os tokens em `marca-icaro-gavioli/marca/tokens.css` e `tokens.json`. Quando o código atual discorda desse documento, vale o documento. As versões 1 a 3, com o nome Ícaro Silva, estão guardadas na mesma pasta. O manual de apresentação da marca está no Figma, no arquivo "Logo - Ícaro Gavioli".
 - **Referências:** Brasil primeiro, aberto à América Latina. O mito de Ícaro fica como eco discreto no texto; sol e asa só aparecem na logo, nunca como enfeite do site.
-- **Nome:** Ícaro Silva.
+- **Nome:** Ícaro Gavioli (até a v3, Ícaro Silva). Nos textos, sempre com acento; na logo, "ICARO GAVIOLI" em caixa alta e sem acento, por escolha dele. As contas de GitHub (IcaroSilva28) e LinkedIn (icaro-silva28) mantêm os endereços antigos.
 - **Assinatura:** *Um ponto firme, guiado pelo céu do Sul.* (escolhida pelo Ícaro; substitui "Voar alto, levando todo mundo junto").
 - **Lar:** São Paulo, capital. As coordenadas usadas na marca são as do marco zero da Praça da Sé (23°33′01″S 46°38′02″W).
 - **Personalidade:** inclusiva, criativa e inovadora. Nunca acadêmica, complicada ou monocromática.
@@ -62,7 +62,7 @@ Serviços oferecidos às empresas:
   - As seções terminam com um convite concreto, não com slogan.
   - Os botões dizem exatamente o que fazem.
   - Sem "apaixonado por tecnologia", "soluções inovadoras" ou "transformação digital" se não houver um exemplo real ao lado.
-- **Logo e favicon:** Sol e asa (v3), em `marca-icaro-silva/marca/assets/v3/`, com versões Dia e Noite: meio sol, engrenagem cortada ao meio pela linha e asa de cinco penas, redesenhados a partir da v1. O Ícaro escolheu manter o sol e a asa porque eles diferenciam a marca do padrão do mercado de tecnologia. O Vértice (v2) e a logo da v1 continuam guardados em `assets/v2/` e `assets/v1/`. Nenhuma pode ser girada, distorcida, recolorida nem posta sobre fotos.
+- **Logo e favicon:** a logo v4, desenhada pelo Ícaro no Figma: um círculo (o sol e o ponto firme) com uma estrela de oito pontas no centro e duas asas saindo da base. Na versão horizontal, o "O" de ICARO vira o sol com uma asa. Arquivos em `marca-icaro-gavioli/marca/assets/v4/`, em Dia, Noite, preto e branco; o favicon é o disco de bronze com a estrela. As logos anteriores (v1 a v3) continuam guardadas. Nenhuma pode ser girada, distorcida, recolorida fora das quatro versões nem posta sobre fotos sem a versão de uma cor.
 - **Fotos:** uma ou duas fotos reais do Ícaro, com luz natural e sem filtros que mudem a cor da pele.
 
 ## Evidence on Hand
