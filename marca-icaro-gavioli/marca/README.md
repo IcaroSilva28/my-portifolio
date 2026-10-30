@@ -283,6 +283,7 @@ Uma ou duas fotos do Ícaro no site inteiro, com cantos `raio-lg`. Fotos reais, 
 - `assets/exploracoes/`: as outras opções desenhadas pelo caminho.
 - `v1/`: README e tokens da v1.
 - `index.html`: o quadro da marca, com tudo lado a lado nos dois temas.
+- `aplicacoes/assinatura-email/`: a assinatura de e-mail do manual (quadro 13), numa página com o botão de copiar e o passo a passo do Gmail. A logo vai em `logo-horizontal-dia.png` (480 por 94, três vezes os 160px mínimos, com fundo branco para não sumir no tema escuro). Os e-mails enviados buscam a imagem no endereço publicado, então ela não pode mudar de lugar nem de nome.
 - `v4/Manual_da_marca-ÍcaroGavioli.pdf`: o manual da marca, exportado do Figma.
 - `v4/Logo v4 · componentes.svg`: a biblioteca de componentes do manual, exportada do Figma. As peças de `assets/v4/` têm o mesmo desenho (conferido peça por peça em 29/10/2026).
 - `fonte/figma-logo-v4.svg`: o desenho original da logo v4, exportado do Figma. A estrela de oito pontas foi refeita aqui com a mesma geometria do Figma (raio interno de 38,2%), conferida no manual.
