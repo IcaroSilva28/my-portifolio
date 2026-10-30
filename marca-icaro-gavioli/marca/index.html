@@ -3,16 +3,16 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Marca Ícaro Silva</title>
-<meta name="description" content="Quadro da marca Ícaro Silva, versão 3: o marco geodésico com o sol e a asa.">
+<title>Marca Ícaro Gavioli</title>
+<meta name="description" content="Quadro da marca Ícaro Gavioli, versão 4: o marco geodésico, com o sol, a estrela e as asas.">
 <script>
   try {
     var t = localStorage.getItem("tema");
     if (t === "dia" || t === "noite") document.documentElement.setAttribute("data-theme", t);
   } catch (e) {}
 </script>
-<link rel="icon" href="assets/v3/favicon-icaro-silva-dia.svg">
-<link rel="icon" href="assets/v3/favicon-icaro-silva-noite.svg" media="(prefers-color-scheme: dark)">
+<link rel="icon" href="assets/v4/favicon-dia.svg">
+<link rel="icon" href="assets/v4/favicon-noite.svg" media="(prefers-color-scheme: dark)">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@100..125,600..800&family=Atkinson+Hyperlegible+Mono:wght@400;600&family=Atkinson+Hyperlegible+Next:ital,wght@0,400;0,700;1,400&display=swap">
@@ -112,7 +112,9 @@
   .tamanhos figure { margin: 0; display: grid; justify-items: center; gap: var(--espaco-2); }
   .tamanhos figcaption { font: 400 0.8125rem/1 var(--font-dados); color: var(--tinta-suave); }
   .subtitulo { margin: 96px 0 var(--espaco-4); font-size: 2rem; font-stretch: var(--display-largura); font-weight: 800; letter-spacing: -0.02em; }
-  .anteriores { display: grid; grid-template-columns: 1fr 1fr; gap: var(--espaco-8); margin-top: var(--espaco-8); }
+  .anteriores { display: grid; grid-template-columns: repeat(3, 1fr); gap: var(--espaco-8); margin-top: var(--espaco-8); }
+  .pecas { margin-top: var(--espaco-16); }
+  .pecas img { height: 120px; }
   .anteriores figure { margin: 0; padding-top: var(--espaco-8); border-top: 1px solid var(--grade); }
   .anteriores img { height: 88px; width: auto; max-width: 100%; }
   .anteriores figcaption { margin-top: var(--espaco-4); font-size: 1rem; color: var(--tinta-suave); max-width: 44ch; }
@@ -198,7 +200,7 @@
 <body>
   <header class="topo">
     <div class="faixa">
-      <strong>Ícaro Silva</strong>
+      <strong>Ícaro Gavioli</strong>
       <nav aria-label="Seções">
         <a href="#simbolos">Símbolos</a>
         <a href="#assinatura">Assinatura</a>
@@ -243,37 +245,41 @@
       </svg>
       <div class="faixa">
         <h1>Um ponto firme, medido pelo céu.</h1>
-        <p class="maxima">Marca do Ícaro Silva, versão 3: <em>um latino criando sistemas que geram impacto social, com inclusão, segurança e raízes firmes, guiado pela astronomia.</em></p>
+        <p class="maxima">Marca do Ícaro Gavioli, versão 4: <em>um latino criando sistemas que geram impacto social, com inclusão, segurança e raízes firmes, guiado pela astronomia.</em></p>
         <p class="coordenada">23°33′01″S 46°38′02″W · marco zero de São Paulo</p>
       </div>
     </div>
 
     <section id="simbolos" aria-labelledby="t-simbolos">
       <div class="faixa">
-        <h2 id="t-simbolos">Logo oficial: Sol e asa</h2>
-        <p class="intro">A v3. O meio sol e a engrenagem cortada ao meio fecham um círculo dividido pela linha: o céu de um lado, a engenharia do outro. Da engrenagem nasce a asa. Troque o tema no topo para ver no chão e no céu. Arquivos em <code>assets/v3/</code>.</p>
+        <h2 id="t-simbolos">Logo oficial (v4)</h2>
+        <p class="intro">Desenhada pelo Ícaro no Figma. O círculo é o sol e o ponto firme; a estrela no centro é a guia; as asas saem da base do círculo. Na horizontal, o "O" de ICARO vira o sol e levanta voo. Troque o tema no topo para ver no chão e no céu. Arquivos em <code>assets/v4/</code>.</p>
         <div class="oficial">
-          <div class="oficial-simbolo">
-            <img class="tema-dia" src="assets/v3/simbolo-icaro-silva-dia.svg" alt="Símbolo Ícaro Silva: meio sol, engrenagem cortada ao meio pela linha e asa de cinco penas">
-            <img class="tema-noite" src="assets/v3/simbolo-icaro-silva-noite.svg" alt="Símbolo Ícaro Silva: meio sol, engrenagem cortada ao meio pela linha e asa de cinco penas">
-          </div>
+          <div class="oficial-simbolo"><img class="tema-dia" src="assets/v4/logo-horizontal-dia.svg" alt="Logo Ícaro Gavioli, versão horizontal: ICAR e o sol com uma asa no lugar do O" style="width:100%"><img class="tema-noite" src="assets/v4/logo-horizontal-noite.svg" alt="Logo Ícaro Gavioli, versão horizontal: ICAR e o sol com uma asa no lugar do O" style="width:100%"></div>
           <div class="oficial-usos">
-            <div class="assinado">
-              <img class="tema-dia" src="assets/v3/logo-icaro-silva-dia.svg" alt="Logo Ícaro Silva">
-              <img class="tema-noite" src="assets/v3/logo-icaro-silva-noite.svg" alt="Logo Ícaro Silva">
-            </div>
-            <div class="fundos"><div class="claro"><img src="assets/v3/logo-icaro-silva-dia.svg" alt=""></div><div class="escuro"><img src="assets/v3/logo-icaro-silva-noite.svg" alt=""></div></div>
+            <div class="assinado"><img class="tema-dia" src="assets/v4/logo-horizontal-assinatura-dia.svg" alt="Logo Ícaro Gavioli com a assinatura Um ponto firme, guiado pelo céu do Sul." style="width:100%"><img class="tema-noite" src="assets/v4/logo-horizontal-assinatura-noite.svg" alt="Logo Ícaro Gavioli com a assinatura Um ponto firme, guiado pelo céu do Sul." style="width:100%"></div>
+            <div class="fundos"><div class="claro"><img src="assets/v4/logo-horizontal-preto.svg" alt=""></div><div class="escuro"><img src="assets/v4/logo-horizontal-branco.svg" alt=""></div></div>
             <div class="tamanhos">
-              <figure><img src="assets/v3/favicon-icaro-silva-dia.svg" width="16" height="16" alt=""><figcaption>16</figcaption></figure>
-              <figure><img src="assets/v3/favicon-icaro-silva-dia.svg" width="32" height="32" alt=""><figcaption>32</figcaption></figure>
-              <figure><img src="assets/v3/favicon-icaro-silva-dia.svg" width="48" height="48" alt=""><figcaption>48</figcaption></figure>
-              <figure><img src="assets/v3/favicon-icaro-silva-dia.svg" width="96" height="96" alt=""><figcaption>favicon</figcaption></figure>
+              <figure><img src="assets/v4/favicon-dia.svg" width="16" height="16" alt=""><figcaption>16</figcaption></figure>
+              <figure><img src="assets/v4/favicon-dia.svg" width="32" height="32" alt=""><figcaption>32</figcaption></figure>
+              <figure><img src="assets/v4/favicon-dia.svg" width="48" height="48" alt=""><figcaption>48</figcaption></figure>
+              <figure><img class="tema-dia" src="assets/v4/simbolo-pequeno-dia.svg" width="96" alt=""><img class="tema-noite" src="assets/v4/simbolo-pequeno-noite.svg" width="96" alt=""><figcaption>reforçado</figcaption></figure>
             </div>
           </div>
+        </div>
+        <div class="anteriores pecas">
+          <figure><img class="tema-dia" src="assets/v4/logo-vertical-dia.svg" alt="Logo Ícaro Gavioli, versão vertical: o símbolo com ICARO e GAVIOLI abaixo" style="width:auto"><img class="tema-noite" src="assets/v4/logo-vertical-noite.svg" alt="Logo Ícaro Gavioli, versão vertical: o símbolo com ICARO e GAVIOLI abaixo" style="width:auto"><figcaption><b>Vertical.</b> Para espaços quadrados. A partir de 320px.</figcaption></figure>
+          <figure><img class="tema-dia" src="assets/v4/simbolo-dia.svg" alt="Símbolo: o sol com a estrela e duas asas" style="width:auto"><img class="tema-noite" src="assets/v4/simbolo-noite.svg" alt="Símbolo: o sol com a estrela e duas asas" style="width:auto"><figcaption><b>Símbolo.</b> Selos e avatares. A partir de 120px; abaixo disso, a versão reforçada.</figcaption></figure>
+          <figure><img class="tema-dia" src="assets/v4/simbolo-reduzido-dia.svg" alt="Símbolo reduzido: o sol com uma asa" style="width:auto"><img class="tema-noite" src="assets/v4/simbolo-reduzido-noite.svg" alt="Símbolo reduzido: o sol com uma asa" style="width:auto"><figcaption><b>Reduzido.</b> O sol com uma asa, para faixas estreitas. A partir de 96px.</figcaption></figure>
         </div>
 
         <h3 class="subtitulo">Versões anteriores</h3>
         <div class="anteriores">
+          <figure>
+            <img class="tema-dia" src="assets/v3/logo-icaro-silva-dia.svg" alt="Logo da v3: meio sol, engrenagem cortada ao meio e asa">
+            <img class="tema-noite" src="assets/v3/logo-icaro-silva-noite.svg" alt="Logo da v3: meio sol, engrenagem cortada ao meio e asa">
+            <figcaption><b>v3, Sol e asa.</b> Meio sol, engrenagem cortada ao meio e asa de cinco penas, com o nome Ícaro Silva. Em <code>assets/v3/</code>.</figcaption>
+          </figure>
           <figure>
             <img class="tema-dia" src="assets/v2/logo-vertice-dia.svg" alt="Logo da v2: Vértice, triângulo com ponto num disco de bronze">
             <img class="tema-noite" src="assets/v2/logo-vertice-noite.svg" alt="Logo da v2: Vértice, triângulo com ponto num disco de bronze">
@@ -282,7 +288,7 @@
           <figure>
             <img class="tema-dia" src="assets/v1/logo-icaro-silva-dia.svg" alt="Logo da v1: meio sol e asa mecânica">
             <img class="tema-noite" src="assets/v1/logo-icaro-silva-noite.svg" alt="Logo da v1: meio sol e asa mecânica">
-            <figcaption><b>v1, sol e asa original.</b> A referência da v3. Em <code>assets/v1/</code>, com o README antigo em <code>v1/</code>.</figcaption>
+            <figcaption><b>v1, sol e asa original.</b> Em <code>assets/v1/</code>, com o README antigo em <code>v1/</code>.</figcaption>
           </figure>
         </div>
 
@@ -398,7 +404,7 @@
   </main>
 
   <footer>
-    <div class="faixa">Marca Ícaro Silva, versão 3. Fonte da verdade: <code>README.md</code> nesta pasta.</div>
+    <div class="faixa">Marca Ícaro Gavioli, versão 4. Fonte da verdade: <code>README.md</code> nesta pasta.</div>
   </footer>
 
 <script>

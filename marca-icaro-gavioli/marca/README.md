@@ -1,13 +1,15 @@
-# Ícaro Silva
+# Ícaro Gavioli
 
-Identidade visual do Ícaro Silva, versão 3: **o marco geodésico, com o sol e a asa**. Este documento é a fonte da verdade para o site e para qualquer material da marca. Quando algo aqui entrar em conflito com o código, vale este documento.
+Identidade visual do Ícaro Gavioli, versão 4: **o marco geodésico, com o sol, a estrela e as asas**. Este documento é a fonte da verdade para o site e para qualquer material da marca. Quando algo aqui entrar em conflito com o código, vale este documento. O manual de apresentação da marca está no Figma, no arquivo "Logo - Ícaro Gavioli".
 
-- **Logo oficial:** Sol e asa (v3), em `assets/v3/`.
+- **Nome:** Ícaro Gavioli. Até a v3, a marca se chamava Ícaro Silva.
+- **Logo oficial:** a logo v4, desenhada pelo Ícaro no Figma, em `assets/v4/`.
 - **Assinatura:** *Um ponto firme, guiado pelo céu do Sul.*
 - **Versões:**
-  - v1: o sol e a asa original. README e tokens em `v1/`, logo em `assets/v1/`.
+  - v1: o sol e a asa original, como Ícaro Silva. README e tokens em `v1/`, logo em `assets/v1/`.
   - v2: o marco geodésico, com o Vértice como logo. Logo em `assets/v2/`.
-  - v3: o mundo da v2 (cores, fontes, temas, componentes) com a logo Sol e asa redesenhada a partir da v1.
+  - v3: o mundo da v2 com a logo Sol e asa redesenhada a partir da v1. Logo em `assets/v3/`.
+  - v4: o mesmo mundo, com o nome Ícaro Gavioli e a logo nova: o sol, a estrela e as asas.
 
 Nada foi apagado. As outras opções desenhadas pelo caminho estão em `assets/exploracoes/`, e tudo aparece lado a lado em `index.html`.
 
@@ -27,11 +29,18 @@ Pelo Brasil inteiro existem pequenos discos de bronze chumbados no concreto, em 
 - **Guiado pela astronomia:** a posição dele vem do céu, das estrelas e dos satélites, não de achismo.
 - **Impacto social e inclusão:** é infraestrutura pública. Serve a todo mundo, do agrimensor ao pequeno produtor.
 - **Segurança:** é uma referência em que dá para confiar, e é protegida.
-- **Latino:** cada marco tem coordenadas abaixo do Equador. O nome leva acento, e o acento fica.
+- **Latino:** cada marco tem coordenadas abaixo do Equador. Nos textos, o nome leva acento: Ícaro.
 
 As coordenadas da marca são as do marco zero de São Paulo, na Praça da Sé (23°33′01″S 46°38′02″W), a cidade que o Ícaro chama de lar. É de lá que a cidade mede as distâncias das suas estradas.
 
-O eco do mito, discreto: Ícaro caiu porque voou sem referência. O marco é o ponto que não cai. No texto e no site, o mito fica só nessa frase. Na logo, o sol e a asa voltam, porque são o que mais diferencia o Ícaro do resto do mercado de tecnologia.
+O eco do mito, discreto: Ícaro caiu porque voou sem referência. O marco é o ponto que não cai. No texto e no site, o mito fica só nessa frase. Na logo, o sol e as asas aparecem, porque são o que mais diferencia o Ícaro do resto do mercado de tecnologia.
+
+### O símbolo: o sol, a estrela e as asas
+
+- **O círculo** é o sol e é o marco: o ponto firme. No "O" de ICARO, com o ponto no centro, ele é também o símbolo astronômico do Sol (☉).
+- **A estrela de oito pontas**, no centro do círculo, é a estrela-guia e a rosa dos ventos: "guiado pelo céu do Sul".
+- **As asas**, de três penas cada, saem da base do círculo. O voo parte do ponto firme: tem raiz.
+- **Na versão horizontal**, o "O" de ICARO vira o sol e ganha uma asa. O nome levanta voo.
 
 ### O que mudou da v1 para a v2 e por quê
 
@@ -44,7 +53,7 @@ O eco do mito, discreto: Ícaro caiu porque voou sem referência. O marco é o p
 | Azul-marinho e dourado | Concreto, bronze, azul de rio e terra roxa | Marinho e dourado é a paleta de bancos e consultorias. |
 | Bricolage Grotesque | Archivo expandida | A Bricolage é uma das fontes de título mais repetidas em sites recentes; a Archivo é de uma fundição argentina e lembra letra estampada em placa. |
 
-A v3 mantém tudo isso e troca só a logo: o Vértice da v2 deu lugar ao sol e à asa da v1, redesenhados com uma fração das peças.
+A v3 manteve tudo isso e trocou só a logo. A v4 mantém o mesmo mundo, troca o nome para Ícaro Gavioli e adota a logo que o Ícaro desenhou no Figma.
 
 ## Para quem fala
 
@@ -73,36 +82,44 @@ A marca é **inclusiva, criativa e inovadora**. Ela nunca deve soar **acadêmica
 
 Escolhida pelo Ícaro. "Um ponto firme" é o marco e as raízes; "guiado pelo céu do Sul" é a astronomia e o Brasil. Substitui "Voar alto, levando todo mundo junto", da v1.
 
-- Vai abaixo do nome ou no rodapé, em `corpo` ou `titulo-2`, nunca em maiúsculas.
+- Vai abaixo do nome ou no rodapé, em `corpo` ou `titulo-2`, nunca em maiúsculas. Na logo com assinatura, ela já vem desenhada.
 - Sempre com a vírgula e o ponto final.
 
-## Logo: Sol e asa (v3)
+## Logo (v4)
 
-A composição da v1, redesenhada em traço limpo e nas cores da v2:
+Desenhada pelo Ícaro no Figma (arquivo "Logo - Ícaro Gavioli"). O original está em `fonte/figma-logo-v4.svg`, e `fonte/gera_logo_v4.py` gera todas as versões sem mudar a forma. Ele só faz três coisas:
 
-- **A linha:** o eixo vertical que passa pelo marco, como um meridiano. Divide a figura em duas metades.
-- **O sol (à esquerda):** meio sol com cinco raios. É o céu que posiciona o marco, a astronomia.
-- **A engrenagem (à direita):** grande e cortada ao meio pela linha, com três janelas de roda. Junto com o sol, fecha um só círculo: o céu de um lado, a engenharia do outro.
-- **A asa:** nasce da engrenagem e sobe para a direita, com cinco penas que diminuem para baixo, cada uma com um veio de latão. Ela voa, mas está presa a uma engrenagem chumbada na linha: tem raiz.
+- troca as formas brancas que escondiam o círculo atrás das asas por arcos de verdade, para a logo funcionar em qualquer fundo;
+- aplica as cores;
+- cria as versões para tamanho pequeno.
 
-O que mudou da v1: as polias, alavancas, rebites e 14 penas viraram uma engrenagem e cinco penas; o arquivo caiu de 170 KB para menos de 5 KB; o nome ao lado está em curvas.
+| Peça | Arquivo | Quando usar | Tamanho mínimo |
+| --- | --- | --- | --- |
+| Logo horizontal | `logo-horizontal-*.svg` | A principal: topo do site, assinatura de e-mail, documentos. | 160px de largura (40 mm impresso) |
+| Logo horizontal com assinatura | `logo-horizontal-assinatura-*.svg` | Capas, apresentações, fechamentos. | 320px (80 mm impresso) |
+| Logo vertical | `logo-vertical-*.svg` | Espaços quadrados: perfis, cartazes, a capa do manual. | 320px (80 mm impresso) |
+| Símbolo | `simbolo-*.svg` | Selos, avatares grandes, gravações. | 120px de largura (30 mm impresso) |
+| Símbolo reforçado | `simbolo-pequeno-*.svg` | O símbolo entre 48 e 120px, com traço e estrela mais grossos. | 48px (12 mm impresso) |
+| Símbolo reduzido | `simbolo-reduzido-*.svg` | O sol com uma asa, para faixas estreitas. | 96px (24 mm impresso) |
+| Favicon | `favicon-*.svg` | Aba do navegador, ícone de app, qualquer uso abaixo de 48px: o disco de bronze com a estrela. | 16px |
 
-Arquivos em `assets/v3/`, sempre em Dia e Noite:
+Cada peça vem em quatro cores: `-dia` (sol e estrela em `bronze`, asas e nome em `tinta`, assinatura em `tinta-suave`), `-noite` (as mesmas funções nas cores da Noite), `-preto` e `-branco` (uma cor só, para carimbo, gravação, bordado e fundos de foto).
 
-- `simbolo-icaro-silva-*.svg`: só o símbolo.
-- `logo-icaro-silva-*.svg`: símbolo e nome.
-- `favicon-icaro-silva-*.svg`: a versão reduzida, em peças cheias dentro do disco de bronze.
+### Regras da logo
 
-Tamanhos:
-
-- Logo completa a partir de 200px de largura (o símbolo fica com pelo menos 40px de altura).
-- Símbolo sozinho a partir de 64px de altura.
-- Abaixo disso, o favicon. Em 32px e 48px ele mostra sol, engrenagem e asa; em 16px vira só um sinal de cor, como qualquer favicon detalhado.
+- **O nome na logo:** "ICARO" em caixa alta e sem acento, por escolha do Ícaro, e "GAVIOLI" abaixo, na versão vertical. É a única exceção à regra de não usar maiúsculas. Nos textos, o nome é escrito "Ícaro Gavioli", com acento.
+- **As letras:** Archivo, na largura normal. "ICAR" da horizontal em Archivo Black; "ICARO" da vertical em Archivo Bold; "GAVIOLI" e a assinatura em Archivo Thin. Nos arquivos, tudo já está em curvas e não depende de fonte instalada.
+- **Área de proteção:** em volta da logo, deixe livre pelo menos o diâmetro do sol (o "O" de ICARO, ou o círculo do símbolo).
+- **Fundos:** `chao` e `placa` com a versão Dia; o céu da Noite com a versão Noite; fotos e cores fortes com a versão branca ou preta, a que tiver mais contraste.
+- No HTML, aponte o favicon Noite para o modo escuro: `<link rel="icon" href="favicon-noite.svg" media="(prefers-color-scheme: dark)">`.
+- Não gire, não distorça, não mude as cores fora das quatro versões, não separe a asa do sol, não coloque sobre fotos sem a versão de uma cor, não adicione sombra nem contorno.
+- Ajuste no Figma e gere de novo com `fonte/gera_logo_v4.py`. Não edite os SVGs à mão.
 
 ### Versões anteriores
 
-- **v2, Vértice** (`assets/v2/`): um triângulo com um ponto num disco de bronze, o sinal de vértice de triangulação das cartas topográficas. Continua útil como selo pequeno, por ser o mais legível em 16px.
-- **v1, sol e asa original** (`assets/v1/`): a referência da v3. Vetorizada a partir de uma imagem, com 170 KB.
+- **v3, Sol e asa** (`assets/v3/`): meio sol, engrenagem cortada ao meio e asa de cinco penas, com o nome Ícaro Silva.
+- **v2, Vértice** (`assets/v2/`): um triângulo com um ponto num disco de bronze, o sinal de vértice de triangulação das cartas topográficas.
+- **v1, sol e asa original** (`assets/v1/`): vetorizada a partir de uma imagem, com 170 KB.
 
 ### Explorações
 
@@ -113,14 +130,7 @@ Guardadas em `assets/exploracoes/`, com símbolo, logo e favicon:
 - **Engrenagem solar:** meia engrenagem como sol e uma asa de penas chapadas com rebites.
 - **Vértice alado:** o Vértice com raios de sol e uma asa de três penas.
 - **Sol e asa, primeira versão** (`*-sol-e-asa-r1-*`): a engrenagem pequena e inteira, antes da lapidação.
-
-### Regras da logo
-
-- O nome "Ícaro Silva" vai em Archivo expandida, peso 800, cor `tinta`, sempre com acento. Nos arquivos `logo-*.svg` ele já está convertido em curvas, então não depende de fonte instalada.
-- Respiro em volta: metade da altura do símbolo.
-- No HTML, aponte o favicon Noite para o modo escuro: `<link rel="icon" href="favicon-icaro-silva-noite.svg" media="(prefers-color-scheme: dark)">`.
-- Não gire, não distorça, não mude as cores, não coloque sobre fotos, não adicione sombra.
-- Os arquivos são gerados por `fonte/gera_marcas.py` (veja "Arquivos" no fim). Ajuste lá, não à mão.
+- **v4 com estrela de sete pontas** (`v4-estrela-7/`): o primeiro desenho da v4, antes de a estrela ganhar oito pontas. O original está em `fonte/figma-logo-v4-estrela-7.svg`.
 
 ## Cores
 
@@ -224,13 +234,13 @@ Os valores vêm dos tokens. As únicas exceções estão descritas nesta página
 - **Campos:** fundo `placa`, borda de 2px em `tinta-suave`, `raio-sm`, rótulo visível acima, padding `espaco-4`. Erro: borda de 3px em `tinta` e texto com ícone abaixo do campo, ligado por `aria-describedby`. Nunca `terra-roxa`.
 - **Cartões:** fundo `placa`, `raio-lg`, padding `espaco-8`, sem sombra.
 - **Tags:** `corpo-pequeno`, borda de 1px em `bronze-texto`, `raio-sm`. No máximo uma tag por tela em `terra-roxa`; no site, é a tag de status "Em andamento", em `rotulo-minimo`.
-- **Herói (o terreno e o marco):** o terreno ocupa a tela inteira, com a grade e as curvas de dia e as estrelas e o Cruzeiro do Sul à noite. O disco do marco, grande e cortado pela borda direita, leva a logo gravada em `patina` e, no aro, "Ícaro Silva · marco zero de São Paulo ·", ajustado para caber inteiro no trecho visível. Abaixo de 1000px, o terreno vira uma faixa acima do título (160px no celular, onde o texto do aro some porque ficaria pequeno demais para ler).
+- **Herói (o terreno e o marco):** o terreno ocupa a tela inteira, com a grade e as curvas de dia e as estrelas e o Cruzeiro do Sul à noite. O disco do marco, grande e cortado pela borda direita, leva o símbolo gravado em `patina` (o sol, a estrela e as asas) e, no aro, "Ícaro Gavioli · marco zero de São Paulo ·", ajustado para caber inteiro no trecho visível. Abaixo de 1000px, o terreno vira uma faixa acima do título (160px no celular, onde o texto do aro some porque ficaria pequeno demais para ler).
 - **Régua de coordenadas:** no pé do herói, Latitude, Longitude e Ponto, com os valores em `coordenada`. A linha acima dela acaba onde o texto acaba, para nunca cortar o disco.
 - **Serviços como legenda de carta:** uma lista com linha de 2px em `tinta` no topo e linhas de 1px em `grade` entre os itens, nunca cartões. Cada serviço tem um símbolo de carta topográfica de 48px em `bronze-texto` (rodovia para acesso, curvas de nível para dados, vértice para segurança), o nome em `titulo-2` e a descrição.
 - **Formação como poligonal:** a linha do tempo é desenhada como um levantamento topográfico. Uma linha de 2px em `bronze-texto` liga os cursos, e cada curso é um vértice (o triângulo com ponto, 14px). Ano em `coordenada`, curso em `titulo-2`, instituição em `corpo`. Ordem cronológica, do mais recente para o mais antigo. Em telas largas, o título da seção fica fixo à esquerda enquanto a poligonal corre à direita.
 - **Monografia:** a ficha do site, como a monografia que o IBGE faz de cada marco. Cartão em `placa`, com linhas de dado: o nome em `corpo-pequeno` negrito e o texto em `corpo-medio`. Só afirma o que o site comprova.
-- **Selo do Contato:** um fragmento do terreno (curvas de dia, estrelas à noite) com o disco de bronze pequeno e a logo gravada, mais as coordenadas. Some abaixo de 1000px.
-- **Navegação:** fixa no topo, 72px, fundo `chao` com leve transparência e linha de 1px em `grade`. A logo completa fica à esquerda (206 por 42px, versão Dia ou Noite), os links das seções e os seletores à direita. O link da seção visível fica em `rio`, sublinhado com 2px. Até 1000px, os links viram um painel em `placa`, aberto por um botão "Menu" com `aria-expanded`, cujo ícone vira X. Até 640px, o seletor de tema entra no painel, para a logo completa caber no topo.
+- **Selo do Contato:** um fragmento do terreno (curvas de dia, estrelas à noite) com o disco de bronze e a estrela, igual ao favicon, mais as coordenadas. Some abaixo de 1000px.
+- **Navegação:** fixa no topo, 72px, fundo `chao` com leve transparência e linha de 1px em `grade`. A logo horizontal fica à esquerda (36px de altura, cerca de 185px de largura, versão Dia ou Noite), os links das seções e os seletores à direita. O link da seção visível fica em `rio`, sublinhado com 2px. Até 1000px, os links viram um painel em `placa`, aberto por um botão "Menu" com `aria-expanded`, cujo ícone vira X. Até 640px, o seletor de tema entra no painel, para a logo completa caber no topo.
 - **Seletor de idioma:** o nome de cada idioma nele mesmo. Enquanto só houver português, ele não aparece.
 - **Largura:** texto em colunas de até 70 caracteres; seções com no máximo 1120px, centralizadas, com `espaco-8` de margem lateral no celular.
 
@@ -266,13 +276,23 @@ Uma ou duas fotos do Ícaro no site inteiro, com cantos `raio-lg`. Fotos reais, 
 ## Arquivos
 
 - `tokens.css` e `tokens.json`: os tokens (iguais desde a v2).
-- `assets/v3/`: a logo oficial (`simbolo-`, `logo-` e `favicon-icaro-silva-*`).
+- `assets/v4/`: a logo oficial, em todas as peças e quatro cores.
+- `assets/v3/`: a logo Sol e asa (Ícaro Silva).
 - `assets/v2/`: o Vértice.
 - `assets/v1/`: a logo da v1.
 - `assets/exploracoes/`: as outras opções desenhadas pelo caminho.
 - `v1/`: README e tokens da v1.
 - `index.html`: o quadro da marca, com tudo lado a lado nos dois temas.
-- `fonte/gera_marcas.py`: gera os arquivos de `assets/v2/`, `assets/v3/` e `assets/exploracoes/`. Precisa da Archivo Expanded ExtraBold (licença OFL) em TTF:
+- `v4/Manual_da_marca-ÍcaroGavioli.pdf`: o manual da marca, exportado do Figma.
+- `v4/Logo v4 · componentes.svg`: a biblioteca de componentes do manual, exportada do Figma. As peças de `assets/v4/` têm o mesmo desenho (conferido peça por peça em 29/10/2026).
+- `fonte/figma-logo-v4.svg`: o desenho original da logo v4, exportado do Figma. A estrela de oito pontas foi refeita aqui com a mesma geometria do Figma (raio interno de 38,2%), conferida no manual.
+- `fonte/gera_logo_v4.py`: gera `assets/v4/` a partir do original do Figma:
+
+```sh
+python3 -I fonte/gera_logo_v4.py fonte/figma-logo-v4.svg assets/v4
+```
+
+- `fonte/gera_marcas.py`: gera as versões anteriores (`assets/v2/`, `assets/v3/` e `assets/exploracoes/`). Precisa da Archivo Expanded ExtraBold (licença OFL) em TTF:
 
 ```sh
 uv run --with fonttools --with uharfbuzz python fonte/gera_marcas.py <archivo-expanded-extrabold.ttf> assets
