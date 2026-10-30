@@ -208,7 +208,7 @@ ul, ol { padding: 0; list-style: none; }
 .medida-faixa { position: absolute; left: 0; right: 0; bottom: var(--espaco-8); }
 .medida { display: flex; flex-wrap: wrap; gap: var(--espaco-4) 48px; width: fit-content; max-width: 100%; padding-top: var(--espaco-4); border-top: 1px solid var(--grade); }
 .medida dt { font-size: 0.8125rem; font-weight: 700; color: var(--tinta-suave); }
-.medida dd { margin-top: 2px; font-size: 1rem; }
+.medida dd { margin-top: 2px; font-size: 1rem; line-height: 1.4; }
 .medida .coordenada { font-size: 1rem; }
 
 /* Um vértice em cada divisa de seção, como as estações de um levantamento */
