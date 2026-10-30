@@ -1,7 +1,7 @@
 /* ============================================================
-   Ícaro Silva: o marco geodésico (marca v3)
+   Ícaro Gavioli: o marco geodésico (marca v4)
    Todos os valores vêm de tokens.css. Fonte da verdade da marca:
-   marca-icaro-silva/marca/README.md
+   marca-icaro-gavioli/marca/README.md
    ============================================================ */
 
 /* ---------- Base ---------- */
@@ -105,7 +105,7 @@ ul, ol { padding: 0; list-style: none; }
 }
 .topo-faixa { display: flex; align-items: center; gap: var(--espaco-8); height: 72px; }
 .marca { flex: none; border-radius: var(--raio-sm); }
-.marca img { width: auto; height: 42px; }
+.marca img { width: auto; height: 36px; }
 
 .menu { margin-left: auto; }
 .menu ul { display: flex; gap: 28px; }

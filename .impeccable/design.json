@@ -1,13 +1,13 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-10-28T21:30:00-03:00",
-  "title": "Design System: Ícaro Silva",
+  "generatedAt": "2026-10-29T14:00:00-03:00",
+  "title": "Design System: Ícaro Gavioli",
   "extensions": {
     "source": {
-      "brandBook": "marca-icaro-silva/marca/README.md",
+      "brandBook": "marca-icaro-gavioli/marca/README.md",
       "brandTokens": [
-        "marca-icaro-silva/marca/tokens.css",
-        "marca-icaro-silva/marca/tokens.json"
+        "marca-icaro-gavioli/marca/tokens.css",
+        "marca-icaro-gavioli/marca/tokens.json"
       ],
       "siteTokens": "css/tokens.css",
       "themeSwitch": "data-theme=\"dia\"|\"noite\" no <html>; sem atributo, prefers-color-scheme; localStorage chave \"tema\""
@@ -487,6 +487,25 @@
           "#bfc9de",
           "#e7efff"
         ]
+      },
+      "friso-escurecedor": {
+        "role": "neutral",
+        "displayName": "Preto do friso (fixo)",
+        "cssVar": "--friso-escurecedor",
+        "theme": "ambos",
+        "purpose": "Só misturado ao bronze (72% bronze) nos frisos do disco do herói.",
+        "canonical": "#000000",
+        "oklch": "oklch(0.0% 0.000 0.0)",
+        "tonalRamp": [
+          "#0b0b0b",
+          "#252525",
+          "#424242",
+          "#616161",
+          "#828282",
+          "#a5a5a5",
+          "#c9c9c9",
+          "#eeeeee"
+        ]
       }
     },
     "typographyMeta": {
@@ -500,7 +519,27 @@
       },
       "titulo-1": {
         "displayName": "Título 1",
-        "purpose": "Título de seção. Contato usa clamp(2.25rem, 4.4vw, 3.5rem)."
+        "purpose": "Título de seção."
+      },
+      "titulo-fechamento": {
+        "displayName": "Título de fechamento",
+        "purpose": "Só o título do Contato, o convite final."
+      },
+      "destaque": {
+        "displayName": "Destaque",
+        "purpose": "A primeira frase do Sobre."
+      },
+      "apoio": {
+        "displayName": "Apoio",
+        "purpose": "A frase sob o título do herói; 18px no celular."
+      },
+      "corpo-medio": {
+        "displayName": "Corpo médio",
+        "purpose": "Links do menu, linhas da monografia, notas, valores da régua."
+      },
+      "rotulo-minimo": {
+        "displayName": "Rótulo mínimo",
+        "purpose": "Só os nomes da régua de coordenadas e a tag de status. Nunca texto corrido."
       },
       "titulo-2": {
         "displayName": "Título 2",
@@ -707,7 +746,7 @@
       }
     ],
     "dos": [
-      "Do use apenas os tokens de `css/tokens.css`, copiados de `marca-icaro-silva/marca/tokens.css`; um valor novo nasce no livro da marca, não no site.",
+      "Do use apenas os tokens de `css/tokens.css`, copiados de `marca-icaro-gavioli/marca/tokens.css`; um valor novo nasce no livro da marca, não no site.",
       "Do dê a cada token o seu papel nos dois temas: `--rio` para ação, `--bronze` para preencher, `--bronze-texto` para escrever, `--grade` para dividir.",
       "Do use cantos de 6px em controles e tags, 16px em placas e foto, e o círculo só no disco do marco.",
       "Do separe superfícies por tom e por filete (1px `--grade`, 2px `--tinta`), nunca por sombra.",
